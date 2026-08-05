@@ -1,4 +1,3 @@
-/* style.css - Estilos para el CV */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -73,12 +72,11 @@ h3 {
     font-size: 0.95em;
 }
 
-/* --- NUEVO: Estilos para la foto de perfil --- */
 .profile-img {
-    width: 150px;           /* Ancho de la foto */
-    height: 150px;          /* Alto de la foto */
-    border-radius: 50%;     /* Convierte la imagen cuadrada en un círculo */
-    object-fit: cover;      /* Evita que se estire o se deforme */
-    margin-bottom: 15px;    /* Espacio entre la foto y tu nombre */
-    border: 3px solid #0056b3; /* Borde azul que combina con los títulos */
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;  
+    margin-bottom: 15px;   
+    border: 3px solid #0056b3; 
 }
